@@ -1,0 +1,42 @@
+.window {
+    margin: 0 auto;
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#chat {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    overflow-y: scroll; 
+}
+
+#message {
+    width: 80%;
+}
+
+.div-message {
+    margin: 5px 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.user-message {
+    width: 50%;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    align-self: flex-end;
+    border: 1px solid black;
+}
